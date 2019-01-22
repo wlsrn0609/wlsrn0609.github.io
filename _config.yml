@@ -19,7 +19,7 @@ url: http://aronbordin.com/neo-hpstr-jekyll-theme
 # See the example
 menu:
   - title: 'Home'
-    url: '/'
+    url: 'https://wlsrn0609.github.io'
   - title: 'Fork'
     url: 'http://github.com/aron-bordin/neo-hpstr-jekyll-theme'
   - title: 'Install'
