@@ -1,5 +1,5 @@
 ---
-layout: _posts
+layout: posts
 title: MakeFromAtom
 date: 2019-01-23 12:58 +0000
 category: Dev
