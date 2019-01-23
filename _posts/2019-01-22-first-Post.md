@@ -1,6 +1,7 @@
 ---
 layout: posts
-title: 지킬(jekyll) 로 포스팅하기
+title: 첫번째 포스팅
+date: 2019-01-22 17:00 +0000
 category: Dev
 tags: [blog, jekyll, github.io]
 ---
