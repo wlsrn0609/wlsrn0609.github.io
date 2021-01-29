@@ -6,16 +6,7 @@
     <description>Recent content on Wlsrn0609 Dev Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 29 Jan 2021 16:48:13 +0900</lastBuildDate><atom:link href="https://wlsrn0609.github.io/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>SecondMD</title>
-      <link>https://wlsrn0609.github.io/post/secondmd/</link>
-      <pubDate>Fri, 29 Jan 2021 16:48:13 +0900</pubDate>
-      
-      <guid>https://wlsrn0609.github.io/post/secondmd/</guid>
-      <description>RxSwift Subject란?   Observerble 이면서 Observer  Publish Subject   가장 일반적인 Subject  Behavior Subject   1개의 값을 초기값으로 가진다 1개의 값을 버퍼에 저장하고 있다 새로 구독자가 생길 경우 최근 값 1개를 전달한다  Replay Subject   n개의 값을 초기값으로 가진다 n개의 값을 버퍼에 저장하고 있다 새로 구독자가 생길 경우 최근 값 n개를 전달한다  Async Subject   Completed가 방출되어야 최근 값 하나를 방출하는 Subject 즉 Completed되는 시점에 마지막 하나의 값만 방출하고, 이어서 Completed 방출 error가 방출되는 경우, 최근 값 하나는 방출되지 않는다.</description>
-    </item>
-    
+    <lastBuildDate>Fri, 29 Jan 2021 15:38:18 +0900</lastBuildDate><atom:link href="https://wlsrn0609.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>FirstMD</title>
       <link>https://wlsrn0609.github.io/post/firstmd/</link>
