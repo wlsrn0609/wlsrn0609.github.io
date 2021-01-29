@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Wlsrn0609 Dev Site</title>
-    <link>https://wlsrn0609.github.io/</link>
-    <description>Recent content on Wlsrn0609 Dev Site</description>
+    <title>Hugo on Wlsrn0609 Dev Site</title>
+    <link>https://wlsrn0609.github.io/categories/hugo/</link>
+    <description>Recent content in Hugo on Wlsrn0609 Dev Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 29 Jan 2021 18:06:44 +0900</lastBuildDate><atom:link href="https://wlsrn0609.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 29 Jan 2021 18:06:44 +0900</lastBuildDate><atom:link href="https://wlsrn0609.github.io/categories/hugo/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>새 콘텐츠 업데이트 방법</title>
       <link>https://wlsrn0609.github.io/post/how-to-make-new-content-through-hugo/</link>
