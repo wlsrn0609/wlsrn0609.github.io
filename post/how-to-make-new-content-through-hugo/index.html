@@ -6,14 +6,11 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="index, follow">
 <title>새 콘텐츠 업데이트 방법 | Wlsrn&#39;s Dev</title>
-
-<meta name="keywords" content="Hugo, Web" />
-<meta name="description" content="터미널로 프로젝트 폴더로 이동 hugo new post/newPost.md 명령어를 이용하여 파일 생성 (작성시간이 자동기록된다) SampleMD.md를 참고하여 카테고리, 태그 등 추가 draft가 true일 경우에는 배포되지 않는다 hugo server 메뉴를 통해 로컬에서 확인 hugo server -D를 이용하면 초안(draft=true)도 함께 확인할 수 있다. hugo 명령어를 이용해 public 폴더로 배포 public 폴더(xxx.github.io 레포지토리) 커밋 및 푸쉬 프로젝트 폴더 커밋 및 푸쉬   부연 설명   프로젝트 폴더와 프로젝트 폴더 안의 public 폴더로 크게 두개의 레포지토리를 사용한다 프로젝트 폴더에서 원하는 작업(새 게시글 작성 및 빌드) 등을 수행한다 hugo 명령어를 통해 로컬 확인 및 빌드를 수행한다 빌드가 완료되면 public 폴더에 배포형태로 만들어진다 public 폴더를 참조하는 xxx.">
+<meta name="keywords" content="Hugo, Web">
+<meta name="description" content="터미널로 프로젝트 폴더로 이동 hugo new post/newPost.md 명령어를 이용하여 파일 생성 (작성시간이 자동기록된다) SampleMD.md를 참고하여 카테고리, 태그 등 추가 draft가 true일 경우에는 배포되지 않는다 hugo server 메뉴를 통해 로컬에서 확인 hugo server -D를 이용하면 초안(draft=true)도 함께 확인할 수 있다. hugo 명령어를 이용해 public 폴더로 배포 public 폴더(xxx.github.io 레포지토리) 커밋 및 푸쉬 프로젝트 폴더 커밋 및 푸쉬 부연 설명 프로젝트(github repository) 폴더와 프로젝트 폴더 안의 public(wlsrn0609.github.io repository) 폴더로 크게 두개의 레포지토리를 사용한다 프로젝트 폴더에서 원하는 작업(새 게시글 작성 및 빌드) 등을 수행한다 hugo 명령어를 통해 로컬 확인 및 빌드를 수행한다 빌드가 완료되면 public 폴더에 배포형태로 만들어진다 public 폴더를 참조하는 xxx.">
 <meta name="author" content="">
-<link rel="canonical" href="https://wlsrn0609.github.io/post/how-to-make-new-content-through-hugo/" />
-<link href="/assets/css/stylesheet.min.4f1ad98d0bbc51ea2c950f063c7e29522bc8945c9dd06348318cd4cce6be44bb.css" integrity="sha256-TxrZjQu8UeoslQ8GPH4pUivIlFyd0GNIMYzUzOa&#43;RLs=" rel="preload stylesheet"
-    as="style">
-
+<link rel="canonical" href="https://wlsrn0609.github.io/post/how-to-make-new-content-through-hugo/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.fc220c15db4aef0318bbf30adc45d33d4d7c88deff3238b23eb255afdc472ca6.css" integrity="sha256-/CIMFdtK7wMYu/MK3EXTPU18iN7/MjiyPrJVr9xHLKY=" rel="preload stylesheet" as="style">
 <link rel="icon" href="https://wlsrn0609.github.io/favicon.ico">
 <link rel="icon" type="image/png" sizes="16x16" href="https://wlsrn0609.github.io/favicon-16x16.png">
 <link rel="icon" type="image/png" sizes="32x32" href="https://wlsrn0609.github.io/favicon-32x32.png">
@@ -21,35 +18,95 @@
 <link rel="mask-icon" href="https://wlsrn0609.github.io/safari-pinned-tab.svg">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
-<meta name="generator" content="Hugo 0.80.0" />
+<link rel="alternate" hreflang="en" href="https://wlsrn0609.github.io/post/how-to-make-new-content-through-hugo/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
 
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+
+    </style>
+</noscript>
+  
 
 <meta property="og:title" content="새 콘텐츠 업데이트 방법" />
-<meta property="og:description" content="터미널로 프로젝트 폴더로 이동 hugo new post/newPost.md 명령어를 이용하여 파일 생성 (작성시간이 자동기록된다) SampleMD.md를 참고하여 카테고리, 태그 등 추가 draft가 true일 경우에는 배포되지 않는다 hugo server 메뉴를 통해 로컬에서 확인 hugo server -D를 이용하면 초안(draft=true)도 함께 확인할 수 있다. hugo 명령어를 이용해 public 폴더로 배포 public 폴더(xxx.github.io 레포지토리) 커밋 및 푸쉬 프로젝트 폴더 커밋 및 푸쉬   부연 설명   프로젝트 폴더와 프로젝트 폴더 안의 public 폴더로 크게 두개의 레포지토리를 사용한다 프로젝트 폴더에서 원하는 작업(새 게시글 작성 및 빌드) 등을 수행한다 hugo 명령어를 통해 로컬 확인 및 빌드를 수행한다 빌드가 완료되면 public 폴더에 배포형태로 만들어진다 public 폴더를 참조하는 xxx." />
+<meta property="og:description" content="터미널로 프로젝트 폴더로 이동 hugo new post/newPost.md 명령어를 이용하여 파일 생성 (작성시간이 자동기록된다) SampleMD.md를 참고하여 카테고리, 태그 등 추가 draft가 true일 경우에는 배포되지 않는다 hugo server 메뉴를 통해 로컬에서 확인 hugo server -D를 이용하면 초안(draft=true)도 함께 확인할 수 있다. hugo 명령어를 이용해 public 폴더로 배포 public 폴더(xxx.github.io 레포지토리) 커밋 및 푸쉬 프로젝트 폴더 커밋 및 푸쉬 부연 설명 프로젝트(github repository) 폴더와 프로젝트 폴더 안의 public(wlsrn0609.github.io repository) 폴더로 크게 두개의 레포지토리를 사용한다 프로젝트 폴더에서 원하는 작업(새 게시글 작성 및 빌드) 등을 수행한다 hugo 명령어를 통해 로컬 확인 및 빌드를 수행한다 빌드가 완료되면 public 폴더에 배포형태로 만들어진다 public 폴더를 참조하는 xxx." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://wlsrn0609.github.io/post/how-to-make-new-content-through-hugo/" />
-<meta property="og:image" content="https://wlsrn0609.github.io/image/hugo-logo-wide.svg" /><meta property="article:published_time" content="2021-01-29T18:06:44+09:00" />
-<meta property="article:modified_time" content="2021-01-29T18:06:44+09:00" />
+<meta property="og:image" content="https://wlsrn0609.github.io/image/hugo-logo-wide.svg" /><meta property="article:section" content="post" />
+<meta property="article:published_time" content="2023-05-28T18:06:44+09:00" />
+<meta property="article:modified_time" content="2023-05-28T18:06:44+09:00" />
+
 <meta name="twitter:card" content="summary_large_image" />
 <meta name="twitter:image" content="https://wlsrn0609.github.io/image/hugo-logo-wide.svg" />
 <meta name="twitter:title" content="새 콘텐츠 업데이트 방법"/>
-<meta name="twitter:description" content="터미널로 프로젝트 폴더로 이동 hugo new post/newPost.md 명령어를 이용하여 파일 생성 (작성시간이 자동기록된다) SampleMD.md를 참고하여 카테고리, 태그 등 추가 draft가 true일 경우에는 배포되지 않는다 hugo server 메뉴를 통해 로컬에서 확인 hugo server -D를 이용하면 초안(draft=true)도 함께 확인할 수 있다. hugo 명령어를 이용해 public 폴더로 배포 public 폴더(xxx.github.io 레포지토리) 커밋 및 푸쉬 프로젝트 폴더 커밋 및 푸쉬   부연 설명   프로젝트 폴더와 프로젝트 폴더 안의 public 폴더로 크게 두개의 레포지토리를 사용한다 프로젝트 폴더에서 원하는 작업(새 게시글 작성 및 빌드) 등을 수행한다 hugo 명령어를 통해 로컬 확인 및 빌드를 수행한다 빌드가 완료되면 public 폴더에 배포형태로 만들어진다 public 폴더를 참조하는 xxx."/>
+<meta name="twitter:description" content="터미널로 프로젝트 폴더로 이동 hugo new post/newPost.md 명령어를 이용하여 파일 생성 (작성시간이 자동기록된다) SampleMD.md를 참고하여 카테고리, 태그 등 추가 draft가 true일 경우에는 배포되지 않는다 hugo server 메뉴를 통해 로컬에서 확인 hugo server -D를 이용하면 초안(draft=true)도 함께 확인할 수 있다. hugo 명령어를 이용해 public 폴더로 배포 public 폴더(xxx.github.io 레포지토리) 커밋 및 푸쉬 프로젝트 폴더 커밋 및 푸쉬 부연 설명 프로젝트(github repository) 폴더와 프로젝트 폴더 안의 public(wlsrn0609.github.io repository) 폴더로 크게 두개의 레포지토리를 사용한다 프로젝트 폴더에서 원하는 작업(새 게시글 작성 및 빌드) 등을 수행한다 hugo 명령어를 통해 로컬 확인 및 빌드를 수행한다 빌드가 완료되면 public 폴더에 배포형태로 만들어진다 public 폴더를 참조하는 xxx."/>
 
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Posts",
+      "item": "https://wlsrn0609.github.io/post/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "새 콘텐츠 업데이트 방법",
+      "item": "https://wlsrn0609.github.io/post/how-to-make-new-content-through-hugo/"
+    }
+  ]
+}
+</script>
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "BlogPosting",
   "headline": "새 콘텐츠 업데이트 방법",
   "name": "새 콘텐츠 업데이트 방법",
-  "description": "터미널로 프로젝트 폴더로 이동 hugo new post/newPost.md 명령어를 이용하여 파일 생성 (작성시간이 자동기록된다) SampleMD.md를 참고하여 카테고리, 태그 등 추가 draft가 true일 경우에는 배포되지 않는다 hugo server 메뉴를 통해 로컬에서 확인 hugo server -D를 이용하면  …",
+  "description": "터미널로 프로젝트 폴더로 이동 hugo new post/newPost.md 명령어를 이용하여 파일 생성 (작성시간이 자동기록된다) SampleMD.md를 참고하여 카테고리, 태그 등 추가 draft가 true일 경우에는 배포되지 않는다 hugo server 메뉴를 통해 로컬에서 확인 hugo server -D를 이용하면 초안(draft=true)도 함께 확인할 수 있다. hugo 명령어를 이용해 public 폴더로 배포 public 폴더(xxx.github.io 레포지토리) 커밋 및 푸쉬 프로젝트 폴더 커밋 및 푸쉬 부연 설명 프로젝트(github repository) 폴더와 프로젝트 폴더 안의 public(wlsrn0609.github.io repository) 폴더로 크게 두개의 레포지토리를 사용한다 프로젝트 폴더에서 원하는 작업(새 게시글 작성 및 빌드) 등을 수행한다 hugo 명령어를 통해 로컬 확인 및 빌드를 수행한다 빌드가 완료되면 public 폴더에 배포형태로 만들어진다 public 폴더를 참조하는 xxx.",
   "keywords": [
     "Hugo", "Web"
   ],
-  "articleBody": "  터미널로 프로젝트 폴더로 이동 hugo new post/newPost.md 명령어를 이용하여 파일 생성 (작성시간이 자동기록된다) SampleMD.md를 참고하여 카테고리, 태그 등 추가 draft가 true일 경우에는 배포되지 않는다 hugo server 메뉴를 통해 로컬에서 확인 hugo server -D를 이용하면 초안(draft=true)도 함께 확인할 수 있다. hugo 명령어를 이용해 public 폴더로 배포 public 폴더(xxx.github.io 레포지토리) 커밋 및 푸쉬 프로젝트 폴더 커밋 및 푸쉬   부연 설명   프로젝트 폴더와 프로젝트 폴더 안의 public 폴더로 크게 두개의 레포지토리를 사용한다 프로젝트 폴더에서 원하는 작업(새 게시글 작성 및 빌드) 등을 수행한다 hugo 명령어를 통해 로컬 확인 및 빌드를 수행한다 빌드가 완료되면 public 폴더에 배포형태로 만들어진다 public 폴더를 참조하는 xxx.github.io에 푸쉬를 함으로써 static site가 업데이트된다. public 폴더가 하위폴더이기 때문에 xxx.github.io 을 커밋 푸쉬한 후, 상위폴더인 프로젝트 폴더를 커밋, 푸쉬한다 따라서 public폴더, 레포지토리는 공개해야하며, 프로젝트 폴더는 설정을 포함하고 있기 때문에 private해도 된다.  ",
-  "wordCount" : "128",
+  "articleBody": " 터미널로 프로젝트 폴더로 이동 hugo new post/newPost.md 명령어를 이용하여 파일 생성 (작성시간이 자동기록된다) SampleMD.md를 참고하여 카테고리, 태그 등 추가 draft가 true일 경우에는 배포되지 않는다 hugo server 메뉴를 통해 로컬에서 확인 hugo server -D를 이용하면 초안(draft=true)도 함께 확인할 수 있다. hugo 명령어를 이용해 public 폴더로 배포 public 폴더(xxx.github.io 레포지토리) 커밋 및 푸쉬 프로젝트 폴더 커밋 및 푸쉬 부연 설명 프로젝트(github repository) 폴더와 프로젝트 폴더 안의 public(wlsrn0609.github.io repository) 폴더로 크게 두개의 레포지토리를 사용한다 프로젝트 폴더에서 원하는 작업(새 게시글 작성 및 빌드) 등을 수행한다 hugo 명령어를 통해 로컬 확인 및 빌드를 수행한다 빌드가 완료되면 public 폴더에 배포형태로 만들어진다 public 폴더를 참조하는 xxx.github.io에 푸쉬를 함으로써 static site가 업데이트된다. public 폴더가 하위폴더이기 때문에 xxx.github.io 을 커밋 푸쉬한 후, 상위폴더인 프로젝트 폴더를 커밋, 푸쉬한다 따라서 public폴더, 레포지토리는 공개해야하며, 프로젝트 폴더는 설정을 포함하고 있기 때문에 private해도 된다. ",
+  "wordCount" : "130",
   "inLanguage": "en",
-  "image":"https://wlsrn0609.github.io/image/hugo-logo-wide.svg","datePublished": "2021-01-29T18:06:44+09:00",
-  "dateModified": "2021-01-29T18:06:44+09:00",
+  "image":"https://wlsrn0609.github.io/image/hugo-logo-wide.svg","datePublished": "2023-05-28T18:06:44+09:00",
+  "dateModified": "2023-05-28T18:06:44+09:00",
   "mainEntityOfPage": {
     "@type": "WebPage",
     "@id": "https://wlsrn0609.github.io/post/how-to-make-new-content-through-hugo/"
@@ -64,9 +121,6 @@
   }
 }
 </script>
-
-
-
 </head>
 
 <body class="" id="top">
@@ -80,46 +134,35 @@
     }
 
 </script>
-<noscript>
-    <style type="text/css">
-        .theme-toggle,
-        .top-link {
-            display: none;
-        }
 
-    </style>
-</noscript>
 <header class="header">
     <nav class="nav">
         <div class="logo">
-            <a href="https://wlsrn0609.github.io" accesskey="h" title="Wlsrn&#39;s Dev (Alt + H)">Wlsrn&#39;s Dev</a>
-            <span class="logo-switches">
-                <span class="theme-toggle" title="(Alt + T)">
-                    <a id="theme-toggle" accesskey="t">
-                        <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                            fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                            stroke-linejoin="round">
-                            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
-                        </svg>
-                        <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                            fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                            stroke-linejoin="round">
-                            <circle cx="12" cy="12" r="5"></circle>
-                            <line x1="12" y1="1" x2="12" y2="3"></line>
-                            <line x1="12" y1="21" x2="12" y2="23"></line>
-                            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
-                            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
-                            <line x1="1" y1="12" x2="3" y2="12"></line>
-                            <line x1="21" y1="12" x2="23" y2="12"></line>
-                            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
-                            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
-                        </svg>
-                    </a>
-                </span>
-                
-            </span>
+            <a href="https://wlsrn0609.github.io/" accesskey="h" title="Wlsrn&#39;s Dev (Alt + H)">Wlsrn&#39;s Dev</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
         </div>
-        <ul class="menu" id="menu" onscroll="menu_on_scroll()">
+        <ul id="menu">
             <li>
                 <a href="https://wlsrn0609.github.io/categories/" title="categories">
                     <span>categories</span>
@@ -132,32 +175,34 @@
             </li>
             <li>
                 <a href="https://www.naver.com" title="Naver">
-                    <span>Naver</span>
+                    <span>Naver</span>&nbsp;
+                    <svg fill="none" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round"
+                        stroke-linejoin="round" stroke-width="2.5" viewBox="0 0 24 24" height="12" width="12">
+                        <path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"></path>
+                        <path d="M15 3h6v6"></path>
+                        <path d="M10 14L21 3"></path>
+                    </svg>
                 </a>
-            </li></ul>
+            </li>
+        </ul>
     </nav>
 </header>
-
-    <main class="main">
+<main class="main">
 
 <article class="post-single">
   <header class="post-header">
-    <h1 class="post-title">
+    
+    <h1 class="post-title entry-hint-parent">
       새 콘텐츠 업데이트 방법
     </h1>
-    <div class="post-description">
-      
-    </div>
-    <div class="post-meta">January 29, 2021
+    <div class="post-meta"><span title='2023-05-28 18:06:44 +0900 KST'>May 28, 2023</span>
 
-    </div>
+</div>
   </header> 
-<figure class="entry-cover"><img src="https://wlsrn0609.github.io/image/hugo-logo-wide.svg" alt="hugo">
+<figure class="entry-cover"><img loading="eager" src="https://wlsrn0609.github.io/image/hugo-logo-wide.svg" alt="hugo">
         
 </figure>
-
-  <div class="post-content">
-<h1 id="heading"><a hidden class="anchor" aria-hidden="true" href="#heading">#</a></h1>
+  <div class="post-content"><h1 id="heading"><a hidden class="anchor" aria-hidden="true" href="#heading">#</a></h1>
 <ol>
 <li>터미널로 프로젝트 폴더로 이동</li>
 <li><code>hugo new post/newPost.md</code> 명령어를 이용하여 파일 생성 (작성시간이 자동기록된다)</li>
@@ -173,7 +218,7 @@
 <h2 id="부연-설명">부연 설명<a hidden class="anchor" aria-hidden="true" href="#부연-설명">#</a></h2>
 <hr>
 <ul>
-<li>프로젝트 폴더와 프로젝트 폴더 안의 public 폴더로 크게 두개의 레포지토리를 사용한다</li>
+<li>프로젝트(github repository) 폴더와 프로젝트 폴더 안의 public(wlsrn0609.github.io repository) 폴더로 크게 두개의 레포지토리를 사용한다</li>
 <li>프로젝트 폴더에서 원하는 작업(새 게시글 작성 및 빌드) 등을 수행한다</li>
 <li>hugo 명령어를 통해 로컬 확인 및 빌드를 수행한다</li>
 <li>빌드가 완료되면 public 폴더에 배포형태로 만들어진다</li>
@@ -182,7 +227,9 @@
 <li>따라서 public폴더, 레포지토리는 공개해야하며, 프로젝트 폴더는 설정을 포함하고 있기 때문에 private해도 된다.</li>
 </ul>
 
-</div>
+
+  </div>
+
   <footer class="post-footer">
     <ul class="post-tags">
       <li><a href="https://wlsrn0609.github.io/tags/hugo/">Hugo</a></li>
@@ -190,31 +237,32 @@
     </ul>
   </footer>
 </article>
-    </main><footer class="footer">
-    <span>&copy; 2022 <a href="https://wlsrn0609.github.io">Wlsrn&#39;s Dev</a></span>
-    <span>&middot;</span>
-    <span>Powered by <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a></span>
-    <span>&middot;</span>
-    <span>Theme <a href="https://git.io/hugopapermod" rel="noopener" target="_blank">PaperMod</a></span>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2024 <a href="https://wlsrn0609.github.io/">Wlsrn&#39;s Dev</a></span> · 
+
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
 </footer>
-<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)">
-    <button class="top-link" id="top-link" type="button" accesskey="g">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
-            <path d="M12 6H0l6-6z" />
-        </svg>
-    </button>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
 </a>
 
-
-
-<script defer src="/assets/js/highlight.min.27cd435cc9ed6abb4b496581b151804f79f366c412620272bb94e2f5f598ebcc.js" integrity="sha256-J81DXMntartLSWWBsVGAT3nzZsQSYgJyu5Ti9fWY68w="
-    onload="hljs.initHighlightingOnLoad();"></script>
 <script>
-    window.onload = function () {
-        if (localStorage.getItem("menu-scroll-position")) {
-            document.getElementById('menu').scrollLeft = localStorage.getItem("menu-scroll-position");
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
         }
     }
+
     document.querySelectorAll('a[href^="#"]').forEach(anchor => {
         anchor.addEventListener("click", function (e) {
             e.preventDefault();
@@ -233,6 +281,9 @@
             }
         });
     });
+
+</script>
+<script>
     var mybutton = document.getElementById("top-link");
     window.onscroll = function () {
         if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
@@ -243,10 +294,6 @@
             mybutton.style.opacity = "0";
         }
     };
-
-    function menu_on_scroll() {
-        localStorage.setItem("menu-scroll-position", document.getElementById('menu').scrollLeft);
-    }
 
 </script>
 <script>
@@ -261,7 +308,6 @@
     })
 
 </script>
-
 </body>
 
 </html>

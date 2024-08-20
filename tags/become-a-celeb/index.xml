@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Become-a-Celeb on Wlsrn&#39;s Dev</title>
+    <link>http://localhost:1313/tags/become-a-celeb/</link>
+    <description>Recent content in Become-a-Celeb on Wlsrn&#39;s Dev</description>
+    <generator>Hugo -- 0.133.0</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 29 Jan 2021 16:48:13 +0900</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/become-a-celeb/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>SampleMD</title>
+      <link>http://localhost:1313/post/samplemd/</link>
+      <pubDate>Fri, 29 Jan 2021 16:48:13 +0900</pubDate>
+      <guid>http://localhost:1313/post/samplemd/</guid>
+      <description>RxSwift Subject란? Observerble 이면서 Observer Publish Subject 가장 일반적인 Subject Behavior Subject 1개의 값을 초기값으로 가진다 1개의 값을 버퍼에 저장하고 있다 새로 구독자가 생길 경우 최근 값 1개를 전달한다 Replay Subject n개의 값을 초기값으로 가진다 n개의 값을 버퍼에 저장하고 있다 새로 구독자가 생길 경우 최근 값 n개를 전달한다 Async Subject Completed가 방출되어야 최근 값 하나를 방출하는 Subject 즉 Completed되는 시점에 마지막 하나의 값만 방출하고, 이어서 Completed 방출 error가 방출되는 경우, 최근 값 하나는 방출되지 않는다.</description>
+    </item>
+  </channel>
+</rss>

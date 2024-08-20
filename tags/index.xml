@@ -1,29 +1,47 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Tags on Wlsrn&#39;s Dev</title>
     <link>https://wlsrn0609.github.io/tags/</link>
     <description>Recent content in Tags on Wlsrn&#39;s Dev</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo -- 0.133.0</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 29 Jan 2021 18:06:44 +0900</lastBuildDate><atom:link href="https://wlsrn0609.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 20 Aug 2024 16:04:44 +0900</lastBuildDate>
+    <atom:link href="https://wlsrn0609.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>IOS</title>
+      <link>https://wlsrn0609.github.io/tags/ios/</link>
+      <pubDate>Tue, 20 Aug 2024 16:04:44 +0900</pubDate>
+      <guid>https://wlsrn0609.github.io/tags/ios/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Shortcuts</title>
+      <link>https://wlsrn0609.github.io/tags/shortcuts/</link>
+      <pubDate>Tue, 20 Aug 2024 16:04:44 +0900</pubDate>
+      <guid>https://wlsrn0609.github.io/tags/shortcuts/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Xcode</title>
+      <link>https://wlsrn0609.github.io/tags/xcode/</link>
+      <pubDate>Tue, 20 Aug 2024 16:04:44 +0900</pubDate>
+      <guid>https://wlsrn0609.github.io/tags/xcode/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Hugo</title>
       <link>https://wlsrn0609.github.io/tags/hugo/</link>
-      <pubDate>Fri, 29 Jan 2021 18:06:44 +0900</pubDate>
-      
+      <pubDate>Sun, 28 May 2023 18:06:44 +0900</pubDate>
       <guid>https://wlsrn0609.github.io/tags/hugo/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Web</title>
       <link>https://wlsrn0609.github.io/tags/web/</link>
-      <pubDate>Fri, 29 Jan 2021 18:06:44 +0900</pubDate>
-      
+      <pubDate>Sun, 28 May 2023 18:06:44 +0900</pubDate>
       <guid>https://wlsrn0609.github.io/tags/web/</guid>
       <description></description>
     </item>
-    
   </channel>
 </rss>

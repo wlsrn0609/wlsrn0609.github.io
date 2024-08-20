@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Shortcuts on Wlsrn&#39;s Dev</title>
+    <link>https://wlsrn0609.github.io/tags/shortcuts/</link>
+    <description>Recent content in Shortcuts on Wlsrn&#39;s Dev</description>
+    <generator>Hugo -- 0.133.0</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 20 Aug 2024 16:04:44 +0900</lastBuildDate>
+    <atom:link href="https://wlsrn0609.github.io/tags/shortcuts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Xcode Shortcuts</title>
+      <link>https://wlsrn0609.github.io/post/newpost/</link>
+      <pubDate>Tue, 20 Aug 2024 16:04:44 +0900</pubDate>
+      <guid>https://wlsrn0609.github.io/post/newpost/</guid>
+      <description>Command(⌘) + Shift(⇧) + 숫자 0 : 해당 코드 관련 Document 창 열기
+Command(⌘) + Shift(⇧) + J : 현재 보고 있는 파일 위치 확인
+Command(⌘) + G : 현재 페이지에서 텍스트 에디트에 적힌 문구 순차 검색
+Command(⌘) + Shift(⇧) + G : 현재 페이지에서 텍스트 에디트에 적힌 문구 역순차 검색
+Command(⌘) + Option(⌥) + ,(Comma) : 현재창 이중 분할
+Control(⌃) + Command(⌘) + 좌우 화살표 : 이전/이후 페이지 이동</description>
+    </item>
+  </channel>
+</rss>
