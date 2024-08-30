@@ -10,9 +10,9 @@
     <atom:link href="https://wlsrn0609.github.io/tags/xcode/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Xcode Shortcuts</title>
-      <link>https://wlsrn0609.github.io/post/newpost/</link>
+      <link>https://wlsrn0609.github.io/post/xcode-shortcuts/</link>
       <pubDate>Tue, 20 Aug 2024 16:04:44 +0900</pubDate>
-      <guid>https://wlsrn0609.github.io/post/newpost/</guid>
+      <guid>https://wlsrn0609.github.io/post/xcode-shortcuts/</guid>
       <description>Command(⌘) + Shift(⇧) + 숫자 0 : 해당 코드 관련 Document 창 열기
 Command(⌘) + Shift(⇧) + J : 현재 보고 있는 파일 위치 확인
 Command(⌘) + G : 현재 페이지에서 텍스트 에디트에 적힌 문구 순차 검색
