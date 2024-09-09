@@ -174,6 +174,20 @@
 </article>
 
 <article class="post-entry"> 
+<figure class="entry-cover"><img loading="lazy" src="https://wlsrn0609.github.io/image/modeling.png" alt="hugo">
+</figure>
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">모델링
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>모델링 import Foundation enum Some {} typealias SomeModel = Some.Model extension Some { struct Model : Codable { let body : SomeModelData? enum CodingKeys: String, CodingKey { case body = &#34;body&#34; } init(from decoder: Decoder) throws { let values = try decoder.container(keyedBy: CodingKeys.self) body = try values.decodeIfPresent(SomeModelData.self, forKey: .body) } } } extension Some { struct SomeModelData : Codable { let version : String? enum CodingKeys: String, CodingKey { case version = &#34;version&#34; } init(from decoder: Decoder) throws { let values = try decoder....</p>
+  </div>
+  <footer class="entry-footer"><span title='2024-09-09 09:44:12 +0900 KST'>September 9, 2024</span></footer>
+  <a class="entry-link" aria-label="post link to 모델링" href="https://wlsrn0609.github.io/post/%EB%AA%A8%EB%8D%B8%EB%A7%81/"></a>
+</article>
+
+<article class="post-entry"> 
 <figure class="entry-cover"><img loading="lazy" src="https://wlsrn0609.github.io/image/swift4.png" alt="Swift">
 </figure>
   <header class="entry-header">

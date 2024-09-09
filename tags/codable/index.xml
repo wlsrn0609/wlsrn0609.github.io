@@ -1,26 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Swift on Wlsrn&#39;s Dev</title>
-    <link>https://wlsrn0609.github.io/tags/swift/</link>
-    <description>Recent content in Swift on Wlsrn&#39;s Dev</description>
+    <title>Codable on Wlsrn&#39;s Dev</title>
+    <link>https://wlsrn0609.github.io/tags/codable/</link>
+    <description>Recent content in Codable on Wlsrn&#39;s Dev</description>
     <generator>Hugo -- 0.133.0</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 09 Sep 2024 09:44:12 +0900</lastBuildDate>
-    <atom:link href="https://wlsrn0609.github.io/tags/swift/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://wlsrn0609.github.io/tags/codable/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>모델링</title>
       <link>https://wlsrn0609.github.io/post/%EB%AA%A8%EB%8D%B8%EB%A7%81/</link>
       <pubDate>Mon, 09 Sep 2024 09:44:12 +0900</pubDate>
       <guid>https://wlsrn0609.github.io/post/%EB%AA%A8%EB%8D%B8%EB%A7%81/</guid>
       <description>모델링 import Foundation enum Some {} typealias SomeModel = Some.Model extension Some { struct Model : Codable { let body : SomeModelData? enum CodingKeys: String, CodingKey { case body = &amp;#34;body&amp;#34; } init(from decoder: Decoder) throws { let values = try decoder.container(keyedBy: CodingKeys.self) body = try values.decodeIfPresent(SomeModelData.self, forKey: .body) } } } extension Some { struct SomeModelData : Codable { let version : String? enum CodingKeys: String, CodingKey { case version = &amp;#34;version&amp;#34; } init(from decoder: Decoder) throws { let values = try decoder.</description>
-    </item>
-    <item>
-      <title>최상위 뷰컨트롤러</title>
-      <link>https://wlsrn0609.github.io/post/topviewcontroller/</link>
-      <pubDate>Fri, 30 Aug 2024 11:47:20 +0900</pubDate>
-      <guid>https://wlsrn0609.github.io/post/topviewcontroller/</guid>
-      <description>WindowHelper import UIKit // Utility class to handle UIWindow related functionality class WindowHelper { // This property returns the current key window, considering different iOS versions. static var keyWindow: UIWindow? { #if swift(&amp;gt;=5.1) if #available(iOS 13, *) { return UIApplication.shared.connectedScenes .compactMap { $0 as? UIWindowScene } .flatMap { $0.windows } .first(where: { $0.isKeyWindow }) } else { return UIApplication.shared.keyWindow } #else return UIApplication.shared.keyWindow #endif } // This method returns the top-most view controller from the key window.</description>
     </item>
   </channel>
 </rss>
